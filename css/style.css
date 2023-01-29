@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    color: black;
+}
+
+header .index {
+    list-style-type: none;
+    position: relative;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+header .index a {
+    margin: 100px 100px 100px 100px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s; /* 애니메이션 효과처럼  */
+}
+
+header .index a:hover {
+    color: white;
+    background-color: black;
+    font-style: italic;
+}
