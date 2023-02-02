@@ -73,6 +73,9 @@ header .index a:hover {
     height: 80vh;
     font-weight: 900;
 }
-.skills .box {
-    position: absolute;
+.skills p{
+    text-align: center;
+    width: 100vw;
+    word-spacing: 20px;
+    color: black;
 }
